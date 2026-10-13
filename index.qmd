@@ -33,4 +33,3 @@ All course materials will be available in the GitHub repository:
 ## Google Account
 
 Some of the examples will be implemented in Python through Jupyter notebooks. We recommend using Google Colab to run them. You will need a Google account to use Google Colab. If you don't have one, please register: <https://accounts.google.com/signup>.
-
