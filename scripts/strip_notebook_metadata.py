@@ -17,9 +17,6 @@ def clean(nb):
     if lang:
         for key in LANG_INFO_DROP:
             lang.pop(key, None)
-    kernelspec = meta.get("kernelspec")
-    if kernelspec:
-        kernelspec.pop("display_name", None)
 
     for cell in nb.get("cells", []):
         if cell.get("cell_type") == "code":
